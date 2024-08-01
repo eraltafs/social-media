@@ -1,0 +1,16 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.dhf.socilious",
+            "sha256_cert_fingerprints": [
+                "7A:D1:6F:E0:09:EB:47:DA:10:34:82:67:0A:A1:15:52:22:E1:11:89:28:75:EF:43:6F:9D:B1:FE:2C:86:24:2C",
+                "DE:81:A5:7E:AB:85:A5:B7:10:A7:0A:18:15:67:42:48:D0:37:78:7B:6C:DF:27:9D:B0:2F:71:17:85:2C:79:2D",
+                "3F:03:4F:25:25:5D:30:7C:55:7D:04:73:70:CE:E7:E6:9F:33:1F:E9:CB:21:51:63:B9:C7:29:B1:0B:D5:4B:01"
+            ]
+        }
+    }
+]

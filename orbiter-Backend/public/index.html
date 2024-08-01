@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      href="https://orbiter-prod.blr1.digitaloceanspaces.com/web-images/web-icon.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbiter</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      nav {
+        background-color: #ffffff;
+        padding: 10px;
+        width: 100%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+      }
+
+      nav div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        width: 80%;
+        margin: auto;
+      }
+
+      #main {
+        text-align: center;
+        margin: auto;
+        margin-top: 130px;
+      }
+
+      #banner {
+        text-align: center;
+        margin: 10px auto;
+      }
+
+      #download {
+        text-align: center;
+        margin: 10px auto;
+      }
+
+      @media only screen and (max-width: 375px) {
+        nav div {
+          flex-direction: column;
+        }
+
+        #main h1 {
+          font-size: 24px;
+        }
+
+        #main h2 {
+          font-size: 16px;
+        }
+
+        #banner svg {
+          width: 200px;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <img
+          src="https://orbiter-prod.blr1.digitaloceanspaces.com/web-images/landing-logo.png"
+          alt=""
+          srcset=""
+        />
+        <a
+          href="https://play.google.com/store/apps/details?id=com.dhf.socilious"
+          target="_blank"
+        >
+          <img
+            src="https://orbiter-prod.blr1.digitaloceanspaces.com/web-images/PlayStoreLogo.svg"
+            alt=""
+          />
+        </a>
+      </div>
+    </nav>
+    <div id="main">
+      <h1 style="color: #085a87">Connect worldwide</h1>
+      <h2>
+        Entrepreneurs, startups, mentors, <br />
+        investors, incubators, B schools.
+      </h2>
+    </div>
+    <div id="banner">
+      <img
+        src="https://orbiter-prod.blr1.digitaloceanspaces.com/web-images/DownloadAppBanner.svg"
+        alt=""
+      />
+    </div>
+    <div id="download">
+      <h2>Download Orbiter for Andorid</h2>
+      <a
+        href="https://play.google.com/store/apps/details?id=com.dhf.socilious"
+        target="_blank"
+      >
+        <img
+          src="https://orbiter-prod.blr1.digitaloceanspaces.com/web-images/PlayStoreLogo.svg"
+          alt=""
+        />
+      </a>
+    </div>
+  </body>
+</html>
